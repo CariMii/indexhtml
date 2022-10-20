@@ -1,0 +1,58 @@
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+.boxes{
+    padding-top: 50px;
+    width: 50%;
+}
+.one_box{
+    width: 70%;
+    height: 150px;
+    background: #e8cce8;
+    display: flex;
+    justify-content: space-between;
+}
+.icon{
+    width: 80px;
+    height: 30px;
+    margin: 20px;
+    background: burlywood;
+    border-radius: 10%;
+}
+.icon1{
+    margin: 20px;
+    color: peru;
+    font-size: 20px;
+}
+.two_box{
+    width: 70%;
+    height: 200px;
+    background: burlywood;
+}
+.three_box{
+    width: 70%;
+    height: 150px;
+    background: #e8cce8;
+}
+.daughters {
+    display: flex;
+    justify-content: space-evenly;
+    position: relative;
+    bottom: 30%;
+
+}
+.daughter{
+    width: 100px;
+    height: 100px;
+    background: plum;
+    border-radius: 10%;
+}
+
+
